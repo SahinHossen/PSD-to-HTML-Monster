@@ -1,0 +1,302 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+/* Header Start */
+header {
+	background-image: url(../images/banner.jpg);
+	background-repeat:  no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center;
+}
+.header-color {
+	background-color: rgba(0,0,0,.8);
+}
+.nav-bar {
+	background-color: rgba(0,0,0,.5);
+}
+.wrapper {
+	width: 80%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.icon {
+	width: 15%;
+	float: left;
+}
+.icon h1 {
+	color: #ffffff;
+	font-size: 44px;
+	font-weight: 400;
+	font-family: 'Alegreya', serif;
+	padding: 10px 0;
+}
+.menu {
+	float: right;
+}
+.menu ul {
+	list-style: none;
+	float: right;
+}
+.menu ul li {
+	float: left;
+}
+.menu ul li a {
+	text-decoration: none;
+	padding: 10px 20px;
+	display: block;
+	color: #ffffff;
+	font-size: 16px;
+	font-family: 'Alegreya', serif;
+	text-transform: uppercase;
+	margin-top: 25px;
+	transition: .5s;
+}
+.menu ul li:last-child a {
+	padding-right: 0;
+}
+.menu ul li a:hover {
+	color: skyblue;
+}
+/* Header End */
+/* Banner Start */
+.banner-content {
+	padding: 150px 0;
+	overflow: hidden;
+}
+.banner-title {
+	text-align: center;
+}
+.banner-title h1 {
+	color: #ffffff;
+	font-size: 45px;
+	font-weight: 400;
+	margin: 15px 0;
+}
+.banner-media {
+	position: relative;
+}
+.banner-media ul {
+	float: left;
+	list-style: none;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	margin-top: 20px;
+}
+.banner-media ul li {
+	float: left;
+}
+.banner-media ul li a {
+	text-decoration: none;
+	padding: 5px 15px;
+	color: #ffffff;
+	display: block;
+}
+.banner-media ul li a i {
+	color: #ffffff;
+	font-size: 35px;
+}
+.banner-media ul li a:hover i {
+	color: skyblue;
+}
+/* Banner End */
+/* About Me Start */
+.about-me {
+	margin: 50px 0;
+}
+.about-me-title {}
+.common-h1 {
+	font-size: 50px;
+	font-weight: 900;
+	padding: 25px 0;
+	text-align: center;
+}
+.about-me-content {
+	overflow: hidden;
+}
+.content-image {
+	width: 40%;
+	float: left;
+}
+.content-image img {
+	width: 100%;
+}
+.content-details {
+	width: 58%;
+	float: right;
+}
+.content-details h6 {
+	font-size: 14px;
+	font-weight: 700;
+	padding-bottom: 15px;
+}
+.content-details p {
+	font-size: 17px;
+	font-weight: 300;
+	line-height: 1.5;
+}
+.single-service .common-p {
+	color: #8A8C8F;
+	font-size: 14px;
+	font-weight: 400;
+}
+.content-service {
+	overflow: hidden;
+	margin-top: 15px;
+}
+.single-service {
+	width: 45%;
+	float: left;
+	margin: 10px 0;
+	border-bottom: 2px dotted #8A8C8F;
+	padding-bottom: 8px;
+}
+.single-service:nth-child(even) {
+	margin-left: 10%;
+}
+.common-p {
+	color: #8A8C8F;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 1.5;
+}
+/* About Me End */
+/* What I ofer Start */
+.ofer {
+	margin: 50px 0;
+}
+.ofer-title {
+	text-align: center;
+}
+.ofer-container {
+	overflow: hidden;
+	margin: 20px 0;
+}
+.single-ofer {
+	width: 48%;
+	float: left;
+	margin: 20px 0;
+}
+.single-ofer:nth-child(even) {
+	margin-left: 4%;
+}
+.ofer-icon {
+	width: 13%;
+	float: left;
+	margin: 10px;
+}
+.ofer-icon i {
+	background-color: #edede9;
+	padding: 15px 18px;
+	border-radius: 50%;
+	font-size: 30px;
+}
+.ofer-content {
+	width: 80%;
+	float: left;
+}
+.ofer-content h5 {
+	font-size: 16px;
+	font-weight: 700;
+	margin-bottom: 15px;
+}
+/* What I ofer End */
+/* Featured Work Start */
+.featured-works {}
+.wrapper2 {
+	width: 95%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.work-title {}
+.common-h1 {}
+.work-list {
+	width: 40%;
+	margin: 0 auto;
+	text-align: center;
+}
+.work-list ul {
+	list-style: none;
+	float: left;
+}
+.work-list ul li {
+	float: left;
+	padding: 10px 15px;
+	color: #8A8C8F;
+	font-size: 14px;
+	font-weight: 400;
+}
+.work-gallery {
+	width: 100%;
+	overflow: hidden;
+}
+.gallery-box {
+	width: 30%;
+	float: left;
+	margin: 10px 20px;
+}
+.gallery-box img {
+	width: 100%;
+}
+/* Featured Work Start */
+/* Reviews Start */
+.Reviews {
+	margin: 50px 0;
+}
+.wrapper3 {
+	width: 60%;
+	margin: 0 auto;
+}
+.Reviews-title {}
+.common-h1 {}
+.Reviews-content {
+	padding: 20px 0;
+}
+.common-p {}
+.common-p.right {
+	text-align: center;
+}
+/* Reviews End */
+/* Contact Me Start */
+.contact-me {
+	margin-bottom: 100px;
+}
+.contact-me-title {}
+.contact-me-title h1 {}
+.sing {}
+.sing input {
+	width: 45%;
+	float: left;
+	padding: 10px;
+	margin: 10px;
+	border: none;
+	background-color: #ECEBEB;
+	font-size: 14px;
+	outline: none;
+}
+.sing input:nth-child(5) {
+	width: 95%;
+	padding-bottom: 60px;
+	margin-bottom: 50px;
+}
+.sing .submit {
+	position: relative;
+}
+.sing .submit button {
+	border: 1px solid red;
+	padding: 10px 29px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	margin-top: 250px;
+}
+/* Contact Me End */
